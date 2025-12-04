@@ -1,13 +1,16 @@
-import java.util.*;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int input = sc.nextInt();
-        if(1 <= input && input <= 1000){
-            System.out.println(input);
-        }else{
-            System.out.println("Your score is " + input + " point.");
-        }
+
+        // 변수 선언
+        int n;
+
+        // 입력
+        n = sc.nextInt();
+
+        // 출력
+        System.out.println("Your score is " + n + " point.");
     }
 }
